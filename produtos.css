@@ -1,3 +1,5 @@
+body{ font-family: 'Montserrat', sans-serif;}
+
 header {
     background: #BBBBBB;
     padding: 20px;
@@ -30,7 +32,7 @@ nav a{
 }
 
  nav a:hover{
-     color:red;
+     color:#C78C19;
      text-decoration: underline;
  }
 
@@ -48,19 +50,18 @@ nav a{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border-color:#000000;  /* tag de borda */
-    border-width: 2px;         /* grossura da borda */ 
-    border-style: solid;    /* estilo da borda */
-   /* border: 2px solid #000000;    estilizar borda em apenas uma linha */
-   border-radius: 10px; /* borda com canto arredondado */
+    border-color:#000000;  
+    border-width: 2px;         
+    border-style: solid;   
+    border-radius: 10px; 
 }
 
 .produtos li:hover{
-    border-color: red;   /*Aplica uma borda vermelha dentro dos produtos do li ao passar o mouse*/
+    border-color: #C78C19;   
 }
 
 .produtos li:active{
-    border-color:aquamarine; /* aplica uma borda quando pressiona o mouse em algum produto do li */
+    border-color:#4309ad; 
 }
 
 .produtos li:hover h2 {   /* aumenta a font do h2 que está dentro do li ao passar o mouse */
@@ -72,7 +73,7 @@ nav a{
 }
 
 .prod-desc{
-    font-size:18px;
+    font-size:15px;
     font-style: italic;
 }
 .prod-preco{
@@ -91,4 +92,35 @@ footer {
     color:#FFFFFF;
     font-size: 18px;
     margin: 20px 0 0;
+}
+
+/*responsividade*/
+
+@media screen and (max-width:480px) {
+
+    .caixa, .produtos {
+        width:auto;
+    }
+
+
+    .produtos li{
+        display: block;
+        width: auto;
+        margin-bottom: 1em;
+    }
+
+    .prod-desc, .prod-preco, .produtos h2{
+        width: 100%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+
+    }
+
+    
 }
