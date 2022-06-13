@@ -6,7 +6,7 @@ header {
 }
 
 .caixa{
-    width: 940px; /* boa margem "padrao" */
+    width: 940px; 
     position: relative;
     margin: 0 auto;
 
@@ -20,15 +20,15 @@ nav {
 
 nav li{
     display: inline;
-    margin:0 0 0 15px;         /* espaçamento na esquerda do texto*/
+    margin:0 0 0 15px;        
 }
 
 nav a{
-    text-transform:uppercase;   /* deixa o texto maiusculo */
-    color:#000000;            /* deixa o texto na cor preta */
-    font-weight:bold;           /* deixa o texto negrito */
-    font-size: 22px;            /* altera o tamanho da font */
-    text-decoration: none;      /* tira a decoração ex: sublinhado */
+    text-transform:uppercase;   
+    color:#000000;            
+    font-weight:bold;           
+    font-size: 22px;            
+    text-decoration: none;      
 }
 
  nav a:hover{
