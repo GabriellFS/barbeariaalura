@@ -1,3 +1,5 @@
+body{ font-family: 'Montserrat', sans-serif;}
+
 header {
     background: #BBBBBB;
     padding: 20px;
@@ -106,4 +108,36 @@ thead{
 td, th{
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+@media screen and (max-width:480px){
+    .caixa
+    { width: auto;}
+    
+    h1 {
+        text-align: center;
+}
+    nav{
+        position: static;
+}
+
+.input-padrao{
+    width: auto;
+}
+    form {
+        width: auto;
+        
+        
+}
+
+.btn_enviar{
+    margin-left: 1em;
+}
+   table{
+    table-layout: fixed;
+    width: 20em;
+    margin-left: 3em;
+    
+   } 
+    
 }
